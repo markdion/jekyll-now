@@ -11,12 +11,13 @@
 
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
 
     <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
   </head>
 
   <body>
-    <div class="wrapper-masthead">
+    <!--<div class="wrapper-masthead">
       <div class="container">
         <header class="masthead clearfix">
           <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
@@ -46,6 +47,50 @@
       </div>
     </div>
 
+    {% include analytics.html %}-->
+
+    <div class="root">
+      <div class="maincontent">
+        <header class="page-header">
+          <!--<img src="http://i.imgur.com/aBONniI.jpg" alt="" />-->
+          <h1>Dev Blog</h1>
+        </header>
+        <div id="main" role="main" class="container">
+          {{ content }}
+        </div>
+        <div class="wrapper-footer">
+          <div class="container">
+            <footer class="footer">
+              {% include svg-icons.html %}
+            </footer>
+          </div>
+        </div>
+      </div>
+      <nav class="sidePanel">
+        <div class="title">
+          <img src="{{ site.avatar }}" alt="" />
+          <h1>{{ site.name }}</h1>
+        </div>
+        <ul class="sections">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="{{ site.baseurl }}/">Projects</a></li>
+          <li><a href="{{ site.baseurl }}/about">About</a></li>
+        </ul>
+        <div class="horizontal-list">
+          {% include svg-icons.html %}
+          <!--<div>
+            <ul>
+              <li><a href="https://www.youtube.com/channel/UCCiQ6mKj2JQYLMv5B5BVNfQ"><img src="resources/youtube.svg" alt="" /></a></li>
+              <li><a href="https://ca.linkedin.com/in/mark-dion-71117663"><img src="resources/linkedin.svg" alt="" /></a></li>
+              <li><a href="https://github.com/markdion"><img src="resources/github.svg" alt="" /></a></li>
+              <li><a href="http://stackoverflow.com/users/5427938/markydd"><img src="resources/stack-overflow.svg" alt="" /></a></li>
+            </ul>
+          </div>-->
+        </div>
+      </nav>
+    </div>
+
     {% include analytics.html %}
+
   </body>
 </html>
