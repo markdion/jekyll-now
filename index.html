@@ -1,10 +1,16 @@
 ---
 layout: default
+title: Home
 ---
 
+<header class="post-header">
+  <div>
+    <h1>{{ page.title }}</h1>
+  </div>
+</header>
 <div class="posts">
   {% for post in site.posts %}
-    <article class="post">
+    <article class="post-item">
       <a href="{{ site.baseurl }}{{ post.url }}">
       <div class="container">
         <img src="https://i.ytimg.com/vi/BZfn6nBJxx4/hqdefault.jpg" alt="" />

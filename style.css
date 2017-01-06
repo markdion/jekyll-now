@@ -137,6 +137,10 @@ footer {
     -webkit-filter: brightness(75%);
 }*/
 
+.posts {
+    margin: 50px 0;
+}
+
 .post-header {
     position: relative;
     display: flex;
