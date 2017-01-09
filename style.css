@@ -27,6 +27,10 @@ a {
     box-shadow: inset -10px 0 10px -10px black;
 }
 
+/*.sidePanel hr {
+    border: 1px;
+}*/
+
 .sidePanel .sections {
     position: absolute;
     top: 50%;
@@ -42,12 +46,14 @@ a {
     padding: 14px 0;
     text-decoration: none;
     text-align: center;
-    font-size: 15px;
+    font-size: 16px;
 }
 
 /* Change the link color on hover */
 .sidePanel .sections li a:hover {
     background-color: #34393c;
+    box-shadow: inset -10px 0 10px -10px black;
+
 }
 
 .title {
@@ -151,8 +157,10 @@ footer {
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    background: url(http://i.imgur.com/gQp3VSW.jpg);
-    height: 450px;
+    background: url(http://i.imgur.com/ib1kois.jpg);
+    background-size: cover;
+    background-position-y: 90%;
+    height: 300px;
 }
 .post-header h1 {
     position: relative;
