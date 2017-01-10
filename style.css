@@ -27,16 +27,18 @@ a {
     box-shadow: inset -10px 0 10px -10px black;
 }
 
-/*.sidePanel hr {
-    border: 1px;
-}*/
+.sidePanel hr {
+    background-color: #575f65;
+    border: 0;
+    height: 1px;
+    width: 80%;
+    margin: 20px auto;
+}
 
 .sidePanel .sections {
-    position: absolute;
-    top: 50%;
     width: 100%;
     padding: 0;
-    margin: -100px 0 0 0;
+    /*margin: -100px 0 0 0;*/
     list-style-type: none;
 }
 
@@ -71,21 +73,23 @@ a {
     text-align: center;
     vertical-align: middle;
     color: #f1fbff;
-    font-size: 15px;
-    font-weight: 200;
+    font-size: 16px;
+}
+
+.title h2 {
+    text-align: left;
+    vertical-align: middle;
+    margin: 0 20px;
+    line-height: 1.5em;
+    color: #969b9c;
+    font-size: 12px;
 }
 
 /* --------- SOCIAL MEDIA LINKS --------- */
 
 .horizontal-list {
-    position: absolute;
     width: 100%;
     bottom: 10%;
-}
-.horizontal-list div {
-    position: relative;
-    display: table;
-    margin: 0 auto;
 }
 .horizontal-list ul {
     list-style: none;
