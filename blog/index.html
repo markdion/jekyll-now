@@ -12,11 +12,12 @@ title: Blog
   {% for post in site.posts %}
     <article class="post-item">
       <a href="{{ site.baseurl }}{{ post.url }}">
-      <div class="container">
-        <img src="https://i.ytimg.com/vi/BZfn6nBJxx4/hqdefault.jpg" alt="" />
-        <h1>{{ post.title }}</h1>
-        <p>{{ post.excerpt }}</p>
-      </div>
+        <div class="container">
+          <img src="https://i.ytimg.com/vi/BZfn6nBJxx4/hqdefault.jpg" alt="" />
+          <h1>{{ post.title }}</h1>
+          <p>{{ post.excerpt }}</p>
+        </div>
+      </a>
     </article>
   {% endfor %}
 </div>
