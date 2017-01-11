@@ -40,6 +40,7 @@ a {
     padding: 0;
     margin: 50px 0;
     list-style-type: none;
+    font-weight: 100;
 }
 
 .sidePanel .sections li a {
@@ -156,6 +157,7 @@ footer {
     padding: 40px;
     color: #f1fbff;
     text-shadow: 0 0 40px black;
+    font-weight: 100;
 }
 .post-header .date {
     font-size: 14px;
@@ -202,6 +204,7 @@ iframe {
     color: #eeeeee;
     text-shadow: 0 0 10px black;
     -webkit-transition: transform 200ms linear;
+    font-weight: 100;
 }
 
 .container p {
