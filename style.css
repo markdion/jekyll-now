@@ -125,21 +125,11 @@ footer {
     border-left-color: blue;
 }
 
-.page-header {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-    background: url(http://i.imgur.com/gQp3VSW.jpg);
-    height: 250px;
-}
-
 .posts {
     margin: 50px 0;
 }
 
-.post-header {
+.post-header, .page-header {
     position: relative;
     display: flex;
     justify-content: center;
@@ -149,6 +139,15 @@ footer {
     background-size: cover;
     background-position-y: 90%;
     height: 300px;
+}
+.page-header h1 {
+    position: relative;
+    font-size: 68px;
+    text-align: center;
+    padding: 40px;
+    color: #f1fbff;
+    text-shadow: 0 0 40px black;
+    font-weight: 100;
 }
 .post-header h1 {
     position: relative;
