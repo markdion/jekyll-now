@@ -1,6 +1,7 @@
 ---
 layout: post
 title: New look for the Main Menu v0.2
+image: https://img.youtube.com/vi/ppMdVUibdPA/maxresdefault.jpg
 ---
 
 I've changed the look of the main menu to hopefully make it less boring.

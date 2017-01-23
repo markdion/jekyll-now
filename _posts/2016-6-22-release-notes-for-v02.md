@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Release notes for v0.2
+image: http://i.imgur.com/ib1kois.jpg
 ---
 
 It's been a while since the last update. I've been waiting to release a new version and its finally ready! It has lots of new stuff, mostly little tweaks to make the game look more consistent and polished. No new features, I focused on refining a lot of the core elements of the game, but it looks like it has a coherent style now.

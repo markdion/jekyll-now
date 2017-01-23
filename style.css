@@ -40,7 +40,7 @@ a {
     padding: 0;
     margin: 50px 0;
     list-style-type: none;
-    font-weight: 100;
+    font-weight: 300;
 }
 
 .sidePanel .sections li a {
@@ -56,7 +56,6 @@ a {
 .sidePanel .sections li a:hover {
     background-color: #34393c;
     box-shadow: inset -10px 0 10px -10px black;
-
 }
 
 .sidePanel .title {
@@ -146,7 +145,7 @@ footer {
     text-align: center;
     padding: 40px;
     color: #f1fbff;
-    text-shadow: 0 0 40px black;
+    /*text-shadow: 0 0 40px black;*/
     font-weight: 100;
 }
 .post-header h1 {
@@ -203,7 +202,7 @@ iframe {
     color: #eeeeee;
     text-shadow: 0 0 10px black;
     -webkit-transition: transform 200ms linear;
-    font-weight: 100;
+    font-weight: 300;
 }
 
 .container p {

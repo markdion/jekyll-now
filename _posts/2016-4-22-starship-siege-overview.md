@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Starship Siege Overview
+image: http://i.imgur.com/ib1kois.jpg
 ---
 
 Starship Siege is a 3rd-person space shooter Action/RPG for PC. Players will pilot a ship through space; travelling between planets and solar systems as they level up and upgrade their ship’s passive stats and weapon arsenal.

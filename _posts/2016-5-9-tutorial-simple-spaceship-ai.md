@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Tutorial - Simple Spaceship AI
+image: https://img.youtube.com/vi/_EiyNRBwuN0/maxresdefault.jpg
 ---
 
 I've spent a while trying to think of the right way to create AI that looks fluid, makes gameplay fun, and is also challenging. Here I've figured at least some of that out. I've posted a video of 2 factions of ships battling to show how the AI looks in action. Some of the movement is a bit disjointed, and it obviously isn't perfect, but I think the core ideas are sound.

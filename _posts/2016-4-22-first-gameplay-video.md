@@ -1,6 +1,7 @@
 ---
 layout: post
 title: First Gameplay Video
+image: https://img.youtube.com/vi/KTzqVUTXdMs/maxresdefault.jpg
 ---
 
 Here's some gameplay from the earliest version of Starship Siege. So far I've only created one quest, and this video goes over all of it. Essentially when you download v0.1 this is all the gameplay you'll get.
