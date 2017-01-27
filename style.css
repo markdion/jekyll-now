@@ -164,12 +164,13 @@ footer {
     text-align: center;
 }
 .post {
+    font-size: 18px;
     margin: 50px auto;
     max-width: 700px;
     list-style-type: none;
 }
 .post h2 {
-    font-size: 18px;
+    font-size: 24px;
 }
 .post .entry p {
     line-height: 28px;
