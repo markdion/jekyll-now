@@ -17,7 +17,7 @@ This is a diagram of all the major components and their relationships. All the c
 
 At the top level we have a facade that provides a simple interface for interacting with all the other components.
 
-<img src="/images/inspector-warp-manager.png" alt="" />
+![WarpManager inspector](/images/inspector-warp-manager.png)
 
 `Engage()` starts all the components and sets the event handlers. The end of warp is triggered from the `WarpPlayer` component's OnComplete event trigger. From there we shake the camera, tell the `WarpEffects` to exit, and propogate the `OnComplete` event.
 
@@ -143,7 +143,7 @@ The implementation details of the minigame and the countdown are beyond the scop
 
 This controls the image effects and other aesthetic changes.
 
-<img src="/images/inspector-warp-effects.png" alt="" />
+![WarpEffects inspector](/images/inspector-warp-effects.png)
 
 Each of these effects has its own script to simplify this class. As it is, this class is another facade.
 
@@ -229,8 +229,6 @@ Each of these effects has its own script to simplify this class. As it is, this 
 ### Radial Blur, Vignette, and Field of View
 
 All of these effects have nearly identical scripts. The interface has just `Begin()` and `End()` for entering and exiting warp.
-
-[Screengrab of WarpEffects inspector]
 
 Note that the `duration` and `strength` parameters are passed in rather than being specified in these components. This was done so that all the variables controlling the effects would be provided from one place in the inspector: the `WarpEffects` component. This lets you change the duration in one place, and change all the effects at once.
 
