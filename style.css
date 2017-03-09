@@ -11,6 +11,21 @@ a {
     text-decoration: none;
 }
 
+pre {
+    display: inline-block;
+    width: 700px;
+    overflow-x: scroll;
+    background: #eff0f1;
+    padding: 5px;
+}
+
+code {
+    font-size: 95%;
+    line-height: 140%;
+    background: #eff0f1;
+    padding: 3px;
+}
+
 /* --------- SIDE PANEL --------- */
 
 .sidePanel {
@@ -164,7 +179,6 @@ footer {
     text-align: center;
 }
 .post {
-    font-size: 18px;
     margin: 50px auto;
     max-width: 700px;
     list-style-type: none;
@@ -172,11 +186,19 @@ footer {
 .post h2 {
     font-size: 24px;
 }
+.post h3 {
+    font-size: 18px;
+}
 .post .entry p {
     line-height: 28px;
 }
 .post .entry ul li {
     line-height: 28px;
+}
+.post img {
+    text-align: center;
+    display: block;
+    margin: auto;
 }
 iframe {
     text-align: center;
