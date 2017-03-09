@@ -17,7 +17,7 @@ This is a diagram of all the major components and their relationships. All the c
 
 At the top level we have a facade that provides a simple interface for interacting with all the other components.
 
-![WarpManager inspector](/images/inspector-warp-manager.png)
+![WarpManager inspector](/images/inspector-warp-manager.PNG)
 
 `Engage()` starts all the components and sets the event handlers. The end of warp is triggered from the `WarpPlayer` component's OnComplete event trigger. From there we shake the camera, tell the `WarpEffects` to exit, and propogate the `OnComplete` event.
 
@@ -143,7 +143,7 @@ The implementation details of the minigame and the countdown are beyond the scop
 
 This controls the image effects and other aesthetic changes.
 
-![WarpEffects inspector](/images/inspector-warp-effects.png)
+![WarpEffects inspector](/images/inspector-warp-effects.PNG)
 
 Each of these effects has its own script to simplify this class. As it is, this class is another facade.
 
