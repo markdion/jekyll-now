@@ -243,15 +243,6 @@ iframe {
     opacity: 0;
 }
 
-/*.container p {
-    position: absolute;
-    margin: auto;
-    text-align: left;
-    font-size: 15px;
-    color: black;
-    opacity: 0;
-}*/
-
 .container img {
     position: absolute;
     min-width: 100%;
@@ -307,4 +298,13 @@ iframe {
 .post-content h1 {
     text-align: center;
     font-size: 48px;
+}
+
+/*Main pages (Home, Projects, About)*/
+
+.content {
+    font-size: 18px;
+    margin: 50px auto;
+    padding: 0px 25px;
+    max-width: 900px;
 }
