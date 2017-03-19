@@ -303,8 +303,14 @@ iframe {
 /*Main pages (Home, Projects, About)*/
 
 .content {
-    font-size: 18px;
+    font-size: 17px;
     margin: 50px auto;
     padding: 0px 25px;
     max-width: 900px;
+}
+
+.content img {
+    float: left;
+    padding: 0 20px 0 0;
+    max-width: 400px;
 }
