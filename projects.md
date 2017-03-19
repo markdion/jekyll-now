@@ -6,6 +6,7 @@ permalink: /projects/
 
 ## Starship Siege
 
+![Starship Siege](/images/starship-siege.png)
 Starship Siege is a 3D space shooter with some RPG elements. It's my first released Unity project, and I started it with a grand vision. Naturally, most of that vision had to be compromised. I learned almost everything I know about Unity from working on this game, and many of those things didn't make it into the finished product. For example, I built a robust, flexible quest system but only made one quest. There are also secondary weapons that haven't been fleshed out at all, and a leveling system with no rewards or skills.
 
 I may come back and update it once in a while, and I'm always looking for feedback, but currently it's less of a game and more of a proof of concept.
