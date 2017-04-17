@@ -4,6 +4,16 @@ title: Projects
 permalink: /projects/
 ---
 
+## Penguin Dive
+
+<img src="/images/penguin-dive.webp" alt="Penguin Dive" style="width: 200px;"/>
+Penguin Dive is my first foray into mobile game development and also the first game I've released on an official platform (whatever that is).
+
+I got the idea from another game called Papi Dive, but I simplified the controls and improved upon the graphics. I used this as a challenge to myself to complete and release a game in a month. After working on Starship Siege for a year I really needed to fell like I finished something to keep me motivated.
+
+<a href='https://play.google.com/store/apps/details?id=com.BoredGames.PenguinDive&hl=en&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png' style='height: 60px;'/></a>
+<br/><br/><br/>
+
 ## Starship Siege
 
 ![Starship Siege](/images/starship-siege.png)
@@ -21,3 +31,5 @@ I may come back and update it once in a while, and I'm always looking for feedba
 I looked at the current selection of asteroids on the Asset Store and saw there weren't any free ones that were going for a realistic look. I made my own in Blender using subsurface and displacement modifiers to get the high detail bumpiness.
 
 [Download on the Asset Store](https://www.assetstore.unity3d.com/#!/content/84988)
+
+<footer>Google Play and the Google Play logo are trademarks of Google Inc.</footer>
